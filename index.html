@@ -46,7 +46,19 @@
             <p class="artigo-autor">Por: Samuel Chagas Carneiro</p>
             <p>Bem-vindos, aqui você vai acompanhar tudo sobre o mundo do automobilismo no Brasil e no Mundo.</p>
         </div>
-        <button>🏁 <span></span></button>
+        <button>🏁 <span>0</span></button>
         </main>
     </body>
+    <script>
+        const botao = document.querySelector(button);
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado(){
+            console.log("Para de me clicar!!!");
+            let text = botao.querySelector("span");
+            text.textContent++;
+        }
+
+
+    </script>
 </html>
