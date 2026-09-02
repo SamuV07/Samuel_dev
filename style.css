@@ -30,3 +30,7 @@ header{
             .artigo-autor{
                 font-weight: bold;
             }
+            ul {
+                margin: 8px 0;
+                padding-left: 20px;
+            }
